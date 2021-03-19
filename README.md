@@ -1,2 +1,5 @@
 # pogo-bot
-Discord Meme Bot
+PogO Bot
+
+Commands:
+[maybe insert description in the future lol]
