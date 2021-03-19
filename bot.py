@@ -31,6 +31,8 @@ async def on_message(message):
     if '.random' == message.content.lower():
         users = discord.utils.get(client.users)
         await message.channel.send(users)
+    if '.penis' in message.content.lower():
+        await message.channel.send("{}'S PENIS SIZE: 8{}>".format(message.content[7:], random.randint(0, 20) * "="))
 
     # Replies
     if 'horny' in message.content.lower():
