@@ -31,6 +31,9 @@ async def on_message(message):
     if '.penis' in message.content.lower():
         await message.channel.send("{}'S PENIS SIZE: 8{}>".format(message.content[7:], random.randint(0, 20) * "="))
 
+    if '.test' == message.content.lower():
+        await message.channel.send("hello babe")
+
     # Replies
     if 'horny' in message.content.lower():
         await message.channel.send('Check your DMs for a surprise ;)')
