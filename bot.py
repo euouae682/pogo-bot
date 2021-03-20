@@ -28,8 +28,8 @@ async def on_message(message):
     if '.join' in message.content.lower():
         for i in range(10):
             await message.channel.send("{}, JUAN NOW DUDE".format(message.content[6:]))
-    if '.penis' in message.content.lower():
-        await message.channel.send("{}'S PENIS SIZE: 8{}>".format(message.content[7:], random.randint(0, 20) * "="))
+    # if '.penis' in message.content.lower():
+    #     await message.channel.send("{}'S PENIS SIZE: 8{}>".format(message.content[7:], random.randint(0, 20) * "="))
 
     if '.test' == message.content.lower():
         await message.channel.send("hello babe")
