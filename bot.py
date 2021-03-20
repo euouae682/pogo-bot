@@ -22,9 +22,9 @@ async def on_ready():
 async def on_message(message):
 
     # Commands
-    if '.nuke' == message.content.lower():
-        for i in range(20):
-            await message.channel.send('@everyone')
+    # if '.nuke' == message.content.lower():
+    #     for i in range(20):
+    #         await message.channel.send('@everyone')
     if '.join' in message.content.lower():
         for i in range(10):
             await message.channel.send("{}, JUAN NOW DUDE".format(message.content[6:]))
