@@ -36,6 +36,4 @@ async def on_message(message):
         await message.channel.send('Check your DMs for a surprise ;)')
         await message.author.send('hey baby, wanna bang?')
 
-    # TEST LOL I AM SO HOT
-
 client.run(TOKEN)
